@@ -1,0 +1,3661 @@
+{
+  "characters": [
+    {
+      "id": "1003",
+      "name": "Himeko",
+      "rarity": 5,
+      "rank": 0,
+      "level": 80,
+      "promotion": 6,
+      "icon": "icon/character/1003.png",
+      "preview": "image/character_preview/1003.png",
+      "portrait": "image/character_portrait/1003.png",
+      "rank_icons": [
+        "icon/skill/1003_rank1.png",
+        "icon/skill/1003_rank2.png",
+        "icon/skill/1003_skill.png",
+        "icon/skill/1003_rank4.png",
+        "icon/skill/1003_ultimate.png",
+        "icon/skill/1003_rank6.png"
+      ],
+      "path": {
+        "id": "Mage",
+        "name": "A Erudição",
+        "icon": "icon/path/Erudition.png"
+      },
+      "element": {
+        "id": "Fire",
+        "name": "Fogo",
+        "color": "#F84F36",
+        "icon": "icon/element/Fire.png"
+      },
+      "skills": [
+        {
+          "id": "100301",
+          "name": "Ajuste de Lâmina de Serra",
+          "level": 4,
+          "max_level": 9,
+          "element": {
+            "id": "Fire",
+            "name": "Fogo",
+            "color": "#F84F36",
+            "icon": "icon/element/Fire.png"
+          },
+          "type": "Normal",
+          "type_text": "ATQ Básico",
+          "effect": "SingleAttack",
+          "effect_text": "Alvo Único",
+          "simple_desc": "Causa Dano de Fogo leve a um único inimigo.",
+          "desc": "Causa Dano de Fogo igual a 80% do ATQ de Himeko a um único inimigo.",
+          "icon": "icon/skill/1003_basic_atk.png"
+        },
+        {
+          "id": "100302",
+          "name": "Detonação por Fusão",
+          "level": 10,
+          "max_level": 15,
+          "element": {
+            "id": "Fire",
+            "name": "Fogo",
+            "color": "#F84F36",
+            "icon": "icon/element/Fire.png"
+          },
+          "type": "BPSkill",
+          "type_text": "Perícia",
+          "effect": "Blast",
+          "effect_text": "Explosão",
+          "simple_desc": "Causa Dano de Fogo a um único inimigo e Dano de Fogo leve a inimigos adjacentes a ele.",
+          "desc": "Causa Dano de Fogo igual a 200% do ATQ de Himeko a um único inimigo e 80% do ATQ de Himeko como Dano de Fogo aos inimigos adjacentes a ele.",
+          "icon": "icon/skill/1003_skill.png"
+        },
+        {
+          "id": "100303",
+          "name": "Chama Celestial",
+          "level": 10,
+          "max_level": 15,
+          "element": {
+            "id": "Fire",
+            "name": "Fogo",
+            "color": "#F84F36",
+            "icon": "icon/element/Fire.png"
+          },
+          "type": "Ultra",
+          "type_text": "Perícia Suprema",
+          "effect": "AoEAttack",
+          "effect_text": "Área",
+          "simple_desc": "Causa Dano de Fogo a todos os inimigos. Se inimigos forem derrotados, regenera Energia.",
+          "desc": "Causa Dano de Fogo igual a 229% do ATQ de Himeko a todos os inimigos. Além disso, Himeko regenera 5 de Energia extra para cada inimigo derrotado.",
+          "icon": "icon/skill/1003_ultimate.png"
+        },
+        {
+          "id": "100304",
+          "name": "Corrida da Vitória",
+          "level": 10,
+          "max_level": 15,
+          "element": {
+            "id": "Fire",
+            "name": "Fogo",
+            "color": "#F84F36",
+            "icon": "icon/element/Fire.png"
+          },
+          "type": "Talent",
+          "type_text": "Talento",
+          "effect": "AoEAttack",
+          "effect_text": "Área",
+          "simple_desc": "",
+          "desc": "Quando um inimigo é infligido com Quebra de Fraqueza, Himeko ganha 1 ponto de Carga (máximo de 3 pontos).\nSe Himeko estiver com carga total quando um aliado atacar, ela imediatamente realiza 1 Ataque Extra, causa 140% do ATQ dela como Dano de Fogo a todos os inimigos, consumindo todos os pontos de Carga.\nNo início da batalha, Himeko ganha 1 ponto de Carga.",
+          "icon": "icon/skill/1003_talent.png"
+        },
+        {
+          "id": "100306",
+          "name": "100306",
+          "level": 0,
+          "max_level": 1,
+          "element": {
+            "id": "Fire",
+            "name": "Fogo",
+            "color": "#F84F36",
+            "icon": "icon/element/Fire.png"
+          },
+          "type": "MazeNormal",
+          "type_text": "",
+          "effect": "MazeAttack",
+          "effect_text": "",
+          "simple_desc": "",
+          "desc": "",
+          "icon": "icon/skill/1003_basic_atk.png"
+        },
+        {
+          "id": "100307",
+          "name": "Combustão Incompleta",
+          "level": 1,
+          "max_level": 1,
+          "element": null,
+          "type": "Maze",
+          "type_text": "Técnica",
+          "effect": "Impair",
+          "effect_text": "Incapacitação",
+          "simple_desc": "",
+          "desc": "Após usar a Técnica, cria uma dimensão que dura 15s. Depois entrar em batalha com inimigos na dimensão, há 100% de chance-base de aumentar o Dano de Fogo que os inimigos recebem em 10% por 2 rodada(s). Só 1 dimensão criada por aliados pode existir ao mesmo tempo.",
+          "icon": "icon/skill/1003_technique.png"
+        }
+      ],
+      "skill_trees": [
+        {
+          "id": "1003001",
+          "level": 4,
+          "icon": "icon/skill/1003_basic_atk.png"
+        },
+        {
+          "id": "1003002",
+          "level": 10,
+          "icon": "icon/skill/1003_skill.png"
+        },
+        {
+          "id": "1003003",
+          "level": 10,
+          "icon": "icon/skill/1003_ultimate.png"
+        },
+        {
+          "id": "1003004",
+          "level": 10,
+          "icon": "icon/skill/1003_talent.png"
+        },
+        {
+          "id": "1003007",
+          "level": 1,
+          "icon": "icon/skill/1003_technique.png"
+        },
+        {
+          "id": "1003101",
+          "level": 1,
+          "icon": "icon/skill/1003_skilltree1.png"
+        },
+        {
+          "id": "1003102",
+          "level": 1,
+          "icon": "icon/skill/1003_skilltree2.png"
+        },
+        {
+          "id": "1003103",
+          "level": 1,
+          "icon": "icon/skill/1003_skilltree3.png"
+        },
+        {
+          "id": "1003201",
+          "level": 1,
+          "icon": "icon/property/IconFireAddedRatio.png"
+        },
+        {
+          "id": "1003202",
+          "level": 1,
+          "icon": "icon/property/IconAttack.png"
+        },
+        {
+          "id": "1003203",
+          "level": 1,
+          "icon": "icon/property/IconFireAddedRatio.png"
+        },
+        {
+          "id": "1003204",
+          "level": 1,
+          "icon": "icon/property/IconStatusResistance.png"
+        },
+        {
+          "id": "1003205",
+          "level": 1,
+          "icon": "icon/property/IconFireAddedRatio.png"
+        },
+        {
+          "id": "1003206",
+          "level": 1,
+          "icon": "icon/property/IconAttack.png"
+        },
+        {
+          "id": "1003207",
+          "level": 1,
+          "icon": "icon/property/IconFireAddedRatio.png"
+        },
+        {
+          "id": "1003208",
+          "level": 1,
+          "icon": "icon/property/IconStatusResistance.png"
+        },
+        {
+          "id": "1003209",
+          "level": 1,
+          "icon": "icon/property/IconAttack.png"
+        },
+        {
+          "id": "1003210",
+          "level": 1,
+          "icon": "icon/property/IconFireAddedRatio.png"
+        }
+      ],
+      "light_cone": {
+        "id": "23000",
+        "name": "Noite na Via Láctea",
+        "rarity": 5,
+        "rank": 1,
+        "level": 80,
+        "promotion": 6,
+        "icon": "icon/light_cone/23000.png",
+        "preview": "image/light_cone_preview/23000.png",
+        "portrait": "image/light_cone_portrait/23000.png",
+        "path": {
+          "id": "Mage",
+          "name": "A Erudição",
+          "icon": "icon/path/Erudition.png"
+        },
+        "attributes": [
+          {
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 1164.2399999999998,
+            "display": "1164",
+            "percent": false
+          },
+          {
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 582.1199999999999,
+            "display": "582",
+            "percent": false
+          },
+          {
+            "field": "def",
+            "name": "DEF",
+            "icon": "icon/property/IconDefence.png",
+            "value": 396.9,
+            "display": "396",
+            "percent": false
+          }
+        ],
+        "properties": []
+      },
+      "relics": [
+        {
+          "id": "51021",
+          "name": "Chapéu de Feltro da Mosqueteira do Trigo Selvagem",
+          "set_id": "102",
+          "set_name": "Mosqueteira do Trigo Selvagem",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/102_0.png",
+          "main_affix": {
+            "type": "HPDelta",
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 469.64736002054997,
+            "display": "469",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.062208001501858,
+              "display": "6.2%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.05184000497684,
+              "display": "5.1%",
+              "percent": true,
+              "count": 2,
+              "step": 4
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.046656001126392996,
+              "display": "4.6%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "StatusProbabilityBase",
+              "field": "effect_hit",
+              "name": "Taxa de Acerto de Efeito",
+              "icon": "icon/property/IconStatusProbability.png",
+              "value": 0.05875200103037,
+              "display": "5.8%",
+              "percent": true,
+              "count": 2,
+              "step": 1
+            }
+          ]
+        },
+        {
+          "id": "61072",
+          "name": "Anel de Maestria de Chamas do Artesão de Fogo",
+          "set_id": "107",
+          "set_name": "Artesão de Fogo da Forja de Lava",
+          "rarity": 5,
+          "level": 15,
+          "icon": "icon/relic/107_1.png",
+          "main_affix": {
+            "type": "AttackDelta",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 352.8000000116881,
+            "display": "352",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.038880000589416,
+              "display": "3.8%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.07344000111334101,
+              "display": "7.3%",
+              "percent": true,
+              "count": 2,
+              "step": 1
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.081000001402573,
+              "display": "8.1%",
+              "percent": true,
+              "count": 3,
+              "step": 1
+            },
+            {
+              "type": "StatusProbabilityBase",
+              "field": "effect_hit",
+              "name": "Taxa de Acerto de Efeito",
+              "icon": "icon/property/IconStatusProbability.png",
+              "value": 0.12528000189923,
+              "display": "12.5%",
+              "percent": true,
+              "count": 3,
+              "step": 5
+            }
+          ]
+        },
+        {
+          "id": "61073",
+          "name": "Avental à Prova de Fogo do Artesão de Fogo",
+          "set_id": "107",
+          "set_name": "Artesão de Fogo da Forja de Lava",
+          "rarity": 5,
+          "level": 15,
+          "icon": "icon/relic/107_2.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.43200000724755605,
+            "display": "43.2%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.155520002357664,
+              "display": "15.5%",
+              "percent": true,
+              "count": 4,
+              "step": 4
+            },
+            {
+              "type": "DefenceAddedRatio",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 0.086399999912828,
+              "display": "8.6%",
+              "percent": true,
+              "count": 2,
+              "step": 0
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.061560001457111,
+              "display": "6.1%",
+              "percent": true,
+              "count": 2,
+              "step": 3
+            },
+            {
+              "type": "StatusProbabilityBase",
+              "field": "effect_hit",
+              "name": "Taxa de Acerto de Efeito",
+              "icon": "icon/property/IconStatusProbability.png",
+              "value": 0.034560000523925,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            }
+          ]
+        },
+        {
+          "id": "51024",
+          "name": "Botas de Montaria com Rebites da Mosqueteira",
+          "set_id": "102",
+          "set_name": "Mosqueteira do Trigo Selvagem",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/102_3.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.287544000428167,
+            "display": "28.7%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 15.241518000839278,
+              "display": "15",
+              "percent": false,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.103680003667251,
+              "display": "10.3%",
+              "percent": true,
+              "count": 3,
+              "step": 6
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.09331200225278599,
+              "display": "9.3%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.051840001484378,
+              "display": "5.1%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "63035",
+          "name": "Mega QG da CPI",
+          "set_id": "303",
+          "set_name": "Empresa Mercantil Pangaláctica",
+          "rarity": 5,
+          "level": 15,
+          "icon": "icon/relic/303_0.png",
+          "main_affix": {
+            "type": "FireAddedRatio",
+            "field": "fire_dmg",
+            "name": "Bônus de Dano de Fogo",
+            "icon": "icon/property/IconFireAddedRatio.png",
+            "value": 0.38880301429889397,
+            "display": "38.8%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 16.935019000666216,
+              "display": "16",
+              "percent": false,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 40.22066900366917,
+              "display": "40",
+              "percent": false,
+              "count": 2,
+              "step": 3
+            },
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.155520002357664,
+              "display": "15.5%",
+              "percent": true,
+              "count": 4,
+              "step": 4
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.051840000785887,
+              "display": "5.1%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            }
+          ]
+        },
+        {
+          "id": "63046",
+          "name": "Defesa de Ferro de Belobog",
+          "set_id": "304",
+          "set_name": "Belobog dos Arquitetos",
+          "rarity": 5,
+          "level": 15,
+          "icon": "icon/relic/304_1.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.43200000724755605,
+            "display": "43.2%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "DefenceAddedRatio",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 0.107999999541788,
+              "display": "10.7%",
+              "percent": true,
+              "count": 2,
+              "step": 4
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.05832000123337,
+              "display": "5.8%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.051840000785887,
+              "display": "5.1%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "StatusResistanceBase",
+              "field": "effect_res",
+              "name": "RES a Efeito",
+              "icon": "icon/property/IconStatusResistance.png",
+              "value": 0.11664000176824801,
+              "display": "11.6%",
+              "percent": true,
+              "count": 3,
+              "step": 3
+            }
+          ]
+        }
+      ],
+      "relic_sets": [
+        {
+          "id": "102",
+          "name": "Mosqueteira do Trigo Selvagem",
+          "icon": "icon/relic/102.png",
+          "num": 2,
+          "desc": "Aumenta em 12% o ATQ.",
+          "properties": [
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.12,
+              "display": "12.0%",
+              "percent": true
+            }
+          ]
+        },
+        {
+          "id": "107",
+          "name": "Artesão de Fogo da Forja de Lava",
+          "icon": "icon/relic/107.png",
+          "num": 2,
+          "desc": "Aumenta o Dano de Fogo em 10%.",
+          "properties": [
+            {
+              "type": "FireAddedRatio",
+              "field": "fire_dmg",
+              "name": "Bônus de Dano de Fogo",
+              "icon": "icon/property/IconFireAddedRatio.png",
+              "value": 0.1,
+              "display": "10.0%",
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 2212.0559999999996,
+          "display": "2212",
+          "percent": false
+        },
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 1338.8759999999997,
+          "display": "1338",
+          "percent": false
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 833.49,
+          "display": "833",
+          "percent": false
+        },
+        {
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 96,
+          "display": "96",
+          "percent": false
+        },
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.05,
+          "display": "5.0%",
+          "percent": true
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.5,
+          "display": "50.0%",
+          "percent": true
+        }
+      ],
+      "additions": [
+        {
+          "field": "fire_dmg",
+          "name": "Bônus de Dano de Fogo",
+          "icon": "icon/property/IconFireAddedRatio.png",
+          "value": 0.7128030142988939,
+          "display": "71.2%",
+          "percent": true
+        },
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 2494.7883186862014,
+          "display": "2494",
+          "percent": false
+        },
+        {
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.21664000176824802,
+          "display": "21.6%",
+          "percent": true
+        },
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 1473.035981467105,
+          "display": "1473",
+          "percent": false
+        },
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.252720009069894,
+          "display": "25.2%",
+          "percent": true
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.19180800416506597,
+          "display": "19.1%",
+          "percent": true
+        },
+        {
+          "field": "effect_hit",
+          "name": "Taxa de Acerto de Efeito",
+          "icon": "icon/property/IconStatusProbability.png",
+          "value": 0.218592003453525,
+          "display": "21.8%",
+          "percent": true
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 217.49264254993633,
+          "display": "217",
+          "percent": false
+        },
+        {
+          "field": "break_dmg",
+          "name": "Efeito de Quebra",
+          "icon": "icon/property/IconBreakUp.png",
+          "value": 0.103680002270265,
+          "display": "10.3%",
+          "percent": true
+        }
+      ],
+      "properties": [
+        {
+          "type": "FireAddedRatio",
+          "field": "fire_dmg",
+          "name": "Bônus de Dano de Fogo",
+          "icon": "icon/property/IconFireAddedRatio.png",
+          "value": 0.7128030142988939,
+          "display": "71.2%",
+          "percent": true
+        },
+        {
+          "type": "AttackAddedRatio",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 1.5871920175384782,
+          "display": "158.7%",
+          "percent": true
+        },
+        {
+          "type": "StatusResistanceBase",
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.21664000176824802,
+          "display": "21.6%",
+          "percent": true
+        },
+        {
+          "type": "HPDelta",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 469.64736002054997,
+          "display": "469",
+          "percent": false
+        },
+        {
+          "type": "CriticalChanceBase",
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.252720009069894,
+          "display": "25.2%",
+          "percent": true,
+          "count": 2,
+          "step": 4
+        },
+        {
+          "type": "CriticalDamageBase",
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.19180800416506597,
+          "display": "19.1%",
+          "percent": true,
+          "count": 1,
+          "step": 1
+        },
+        {
+          "type": "StatusProbabilityBase",
+          "field": "effect_hit",
+          "name": "Taxa de Acerto de Efeito",
+          "icon": "icon/property/IconStatusProbability.png",
+          "value": 0.218592003453525,
+          "display": "21.8%",
+          "percent": true,
+          "count": 2,
+          "step": 1
+        },
+        {
+          "type": "AttackDelta",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 369.7350190123543,
+          "display": "369",
+          "percent": false
+        },
+        {
+          "type": "HPAddedRatio",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 0.453600008971995,
+          "display": "45.3%",
+          "percent": true,
+          "count": 1,
+          "step": 1
+        },
+        {
+          "type": "DefenceAddedRatio",
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 0.194399999454616,
+          "display": "19.4%",
+          "percent": true,
+          "count": 2,
+          "step": 0
+        },
+        {
+          "type": "DefenceDelta",
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 55.46218700450845,
+          "display": "55",
+          "percent": false,
+          "count": 1,
+          "step": 1
+        },
+        {
+          "type": "BreakDamageAddedRatioBase",
+          "field": "break_dmg",
+          "name": "Efeito de Quebra",
+          "icon": "icon/property/IconBreakUp.png",
+          "value": 0.103680002270265,
+          "display": "10.3%",
+          "percent": true,
+          "count": 1,
+          "step": 2
+        }
+      ]
+    },
+    {
+      "id": "1107",
+      "name": "Clara",
+      "rarity": 5,
+      "rank": 0,
+      "level": 75,
+      "promotion": 6,
+      "icon": "icon/character/1107.png",
+      "preview": "image/character_preview/1107.png",
+      "portrait": "image/character_portrait/1107.png",
+      "rank_icons": [
+        "icon/skill/1107_rank1.png",
+        "icon/skill/1107_rank2.png",
+        "icon/skill/1107_skill.png",
+        "icon/skill/1107_rank4.png",
+        "icon/skill/1107_ultimate.png",
+        "icon/skill/1107_rank6.png"
+      ],
+      "path": {
+        "id": "Warrior",
+        "name": "A Destruição",
+        "icon": "icon/path/Destruction.png"
+      },
+      "element": {
+        "id": "Physical",
+        "name": "Físico",
+        "color": "#FFFFFF",
+        "icon": "icon/element/Physical.png"
+      },
+      "skills": [
+        {
+          "id": "110701",
+          "name": "Eu Quero Ajudar",
+          "level": 4,
+          "max_level": 9,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "Normal",
+          "type_text": "ATQ Básico",
+          "effect": "SingleAttack",
+          "effect_text": "Alvo Único",
+          "simple_desc": "Causa Dano Físico leve a um único inimigo.",
+          "desc": "Causa Dano Físico igual a 80% do ATQ de Clara a um único inimigo.",
+          "icon": "icon/skill/1107_basic_atk.png"
+        },
+        {
+          "id": "110702",
+          "name": "Svarog Cuida de Você",
+          "level": 10,
+          "max_level": 15,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "BPSkill",
+          "type_text": "Perícia",
+          "effect": "AoEAttack",
+          "effect_text": "Área",
+          "simple_desc": "Causa Dano Físico leve a todas as unidades inimigas. Causa Dano Físico extra leve a alvos que tiverem a Marca do Contra-Ataque.",
+          "desc": "Causa Dano Físico igual a 120% do ATQ de Clara a todos os inimigos e adicionalmente causa Dano Físico igual a 120% do ATQ de Clara a inimigos marcados por Svarog com uma Marca do Contra-Ataque.\nApós o uso desta Perícia, todas as Marcas do Contra-Ataque serão removidas.",
+          "icon": "icon/skill/1107_skill.png"
+        },
+        {
+          "id": "110703",
+          "name": "É Promessa, Não Ordem",
+          "level": 10,
+          "max_level": 15,
+          "element": null,
+          "type": "Ultra",
+          "type_text": "Perícia Suprema",
+          "effect": "Enhance",
+          "effect_text": "Aprimoramento",
+          "simple_desc": "Reduz o Dano recebido, aumenta as chances de receber ataques de inimigos, e aumenta o efeito de Contra-Ataque.",
+          "desc": "Após Clara usar sua Perícia Suprema, o Dano causado a ela é reduzido em 25% extra, e ela terá muito mais chances de ser atacada por inimigos por 2 rodada(s).\nAlém disso, o Contra-Ataque de Svarog é aprimorado. Quando um aliado é atacado, Svarog usa um Contra-Ataque imediatamente, e seu multiplicador de Dano contra o inimigo aumenta em 160%. Inimigos adjacentes a ele sofrem 50% do Dano causado ao inimigo-alvo. Contra-Ataque(s) aprimorado(s) podem entrar em vigor 2 vez(es).",
+          "icon": "icon/skill/1107_ultimate.png"
+        },
+        {
+          "id": "110704",
+          "name": "Porque Somos uma Família",
+          "level": 10,
+          "max_level": 15,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "Talent",
+          "type_text": "Talento",
+          "effect": "SingleAttack",
+          "effect_text": "Alvo Único",
+          "simple_desc": "",
+          "desc": "Sob a proteção de Svarog, o Dano recebido por Clara ao ser atingida por ataques inimigos é reduzido em 10%. Svarog marca inimigos que atacarem Clara com sua Marca do Contra-Ataque e então Contra-Ataca, causando Dano Físico igual a 160% do ATQ de Clara.",
+          "icon": "icon/skill/1107_talent.png"
+        },
+        {
+          "id": "110706",
+          "name": "110706",
+          "level": 0,
+          "max_level": 1,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "MazeNormal",
+          "type_text": "",
+          "effect": "MazeAttack",
+          "effect_text": "",
+          "simple_desc": "",
+          "desc": "",
+          "icon": "icon/skill/1107_basic_atk.png"
+        },
+        {
+          "id": "110707",
+          "name": "Um Preço Baixo pela Vitória",
+          "level": 1,
+          "max_level": 1,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "Maze",
+          "type_text": "Técnica",
+          "effect": "MazeAttack",
+          "effect_text": "",
+          "simple_desc": "",
+          "desc": "Ataca o inimigo imediatamente. Ao entrar na batalha, a chance de Clara ser atacada por inimigos aumenta por 2 rodada(s).",
+          "icon": "icon/skill/1107_technique.png"
+        }
+      ],
+      "skill_trees": [
+        {
+          "id": "1107001",
+          "level": 4,
+          "icon": "icon/skill/1107_basic_atk.png"
+        },
+        {
+          "id": "1107002",
+          "level": 10,
+          "icon": "icon/skill/1107_skill.png"
+        },
+        {
+          "id": "1107003",
+          "level": 10,
+          "icon": "icon/skill/1107_ultimate.png"
+        },
+        {
+          "id": "1107004",
+          "level": 10,
+          "icon": "icon/skill/1107_talent.png"
+        },
+        {
+          "id": "1107007",
+          "level": 1,
+          "icon": "icon/skill/1107_technique.png"
+        },
+        {
+          "id": "1107101",
+          "level": 1,
+          "icon": "icon/skill/1107_skilltree1.png"
+        },
+        {
+          "id": "1107102",
+          "level": 1,
+          "icon": "icon/skill/1107_skilltree2.png"
+        },
+        {
+          "id": "1107103",
+          "level": 1,
+          "icon": "icon/skill/1107_skilltree3.png"
+        },
+        {
+          "id": "1107201",
+          "level": 1,
+          "icon": "icon/property/IconAttack.png"
+        },
+        {
+          "id": "1107202",
+          "level": 1,
+          "icon": "icon/property/IconPhysicalAddedRatio.png"
+        },
+        {
+          "id": "1107203",
+          "level": 1,
+          "icon": "icon/property/IconAttack.png"
+        },
+        {
+          "id": "1107204",
+          "level": 1,
+          "icon": "icon/property/IconMaxHP.png"
+        },
+        {
+          "id": "1107205",
+          "level": 1,
+          "icon": "icon/property/IconAttack.png"
+        },
+        {
+          "id": "1107206",
+          "level": 1,
+          "icon": "icon/property/IconPhysicalAddedRatio.png"
+        },
+        {
+          "id": "1107207",
+          "level": 1,
+          "icon": "icon/property/IconAttack.png"
+        },
+        {
+          "id": "1107208",
+          "level": 1,
+          "icon": "icon/property/IconMaxHP.png"
+        },
+        {
+          "id": "1107209",
+          "level": 1,
+          "icon": "icon/property/IconPhysicalAddedRatio.png"
+        }
+      ],
+      "light_cone": {
+        "id": "24000",
+        "name": "Na Queda de Um Aeon",
+        "rarity": 5,
+        "rank": 4,
+        "level": 70,
+        "promotion": 5,
+        "icon": "icon/light_cone/24000.png",
+        "preview": "image/light_cone_preview/24000.png",
+        "portrait": "image/light_cone_portrait/24000.png",
+        "path": {
+          "id": "Warrior",
+          "name": "A Destruição",
+          "icon": "icon/path/Destruction.png"
+        },
+        "attributes": [
+          {
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 909.6,
+            "display": "909",
+            "percent": false
+          },
+          {
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 454.8,
+            "display": "454",
+            "percent": false
+          },
+          {
+            "field": "def",
+            "name": "DEF",
+            "icon": "icon/property/IconDefence.png",
+            "value": 341.1,
+            "display": "341",
+            "percent": false
+          }
+        ],
+        "properties": []
+      },
+      "relics": [
+        {
+          "id": "51021",
+          "name": "Chapéu de Feltro da Mosqueteira do Trigo Selvagem",
+          "set_id": "102",
+          "set_name": "Mosqueteira do Trigo Selvagem",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/102_0.png",
+          "main_affix": {
+            "type": "HPDelta",
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 469.64736002054997,
+            "display": "469",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.034560001222417,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.062208001501858,
+              "display": "6.2%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "DefenceAddedRatio",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 0.07344000111334101,
+              "display": "7.3%",
+              "percent": true,
+              "count": 2,
+              "step": 1
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.088128001894801,
+              "display": "8.8%",
+              "percent": true,
+              "count": 2,
+              "step": 1
+            }
+          ]
+        },
+        {
+          "id": "51022",
+          "name": "Luvas de Couro Grossas da Mosqueteira",
+          "set_id": "102",
+          "set_name": "Mosqueteira do Trigo Selvagem",
+          "rarity": 4,
+          "level": 8,
+          "icon": "icon/relic/102_1.png",
+          "main_affix": {
+            "type": "AttackDelta",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 171.6019200074952,
+            "display": "171",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "HPDelta",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 27.09603099990636,
+              "display": "27",
+              "percent": false,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.034560001222417,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "StatusProbabilityBase",
+              "field": "effect_hit",
+              "name": "Taxa de Acerto de Efeito",
+              "icon": "icon/property/IconStatusProbability.png",
+              "value": 0.031104000750929,
+              "display": "3.1%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.041472000768408,
+              "display": "4.1%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            }
+          ]
+        },
+        {
+          "id": "51023",
+          "name": "Xale de Caça ao Vento da Mosqueteira",
+          "set_id": "102",
+          "set_name": "Mosqueteira do Trigo Selvagem",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/102_2.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.287544000428167,
+            "display": "28.7%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "HPDelta",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 94.83610899932683,
+              "display": "94",
+              "percent": false,
+              "count": 3,
+              "step": 4
+            },
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 16.935020001605153,
+              "display": "16",
+              "percent": false,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "StatusProbabilityBase",
+              "field": "effect_hit",
+              "name": "Taxa de Acerto de Efeito",
+              "icon": "icon/property/IconStatusProbability.png",
+              "value": 0.034560001222417,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.051840001484378,
+              "display": "5.1%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "51024",
+          "name": "Botas de Montaria com Rebites da Mosqueteira",
+          "set_id": "102",
+          "set_name": "Mosqueteira do Trigo Selvagem",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/102_3.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.287544000428167,
+            "display": "28.7%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 28.78953400091268,
+              "display": "28",
+              "percent": false,
+              "count": 2,
+              "step": 1
+            },
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 16.935020001605153,
+              "display": "16",
+              "percent": false,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "DefenceAddedRatio",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 0.077760001178832,
+              "display": "7.7%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.02592000248842,
+              "display": "2.5%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "53055",
+          "name": "Sol Mecânico do Planeta Screwllum",
+          "set_id": "305",
+          "set_name": "Diferenciador Celestial",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/305_0.png",
+          "main_affix": {
+            "type": "PhysicalAddedRatio",
+            "field": "physical_dmg",
+            "name": "Bônus de Dano Físico",
+            "icon": "icon/property/IconPhysicalAddedRatio.png",
+            "value": 0.258781999349598,
+            "display": "25.8%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "HPDelta",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 27.09603099990636,
+              "display": "27",
+              "percent": false,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.041472000768408,
+              "display": "4.1%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "StatusResistanceBase",
+              "field": "effect_res",
+              "name": "RES a Efeito",
+              "icon": "icon/property/IconStatusResistance.png",
+              "value": 0.069120002444834,
+              "display": "6.9%",
+              "percent": true,
+              "count": 2,
+              "step": 4
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.09331200225278599,
+              "display": "9.3%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "53056",
+          "name": "Sistema de Anéis do Planeta Screwllum",
+          "set_id": "305",
+          "set_name": "Diferenciador Celestial",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/305_1.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.287544000428167,
+            "display": "28.7%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "HPDelta",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 33.87003899971023,
+              "display": "33",
+              "percent": false,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 30.483036001678556,
+              "display": "30",
+              "percent": false,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.069120002444834,
+              "display": "6.9%",
+              "percent": true,
+              "count": 2,
+              "step": 4
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.051840001484378,
+              "display": "5.1%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            }
+          ]
+        }
+      ],
+      "relic_sets": [
+        {
+          "id": "102",
+          "name": "Mosqueteira do Trigo Selvagem",
+          "icon": "icon/relic/102.png",
+          "num": 2,
+          "desc": "Aumenta em 12% o ATQ.",
+          "properties": [
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.12,
+              "display": "12.0%",
+              "percent": true
+            }
+          ]
+        },
+        {
+          "id": "102",
+          "name": "Mosqueteira do Trigo Selvagem",
+          "icon": "icon/relic/102.png",
+          "num": 4,
+          "desc": "Aumenta em 6% a VEL e em 10% o Dano do ATQ Básico do usuário.",
+          "properties": [
+            {
+              "type": "SpeedAddedRatio",
+              "field": "spd",
+              "name": "VEL",
+              "icon": "icon/property/IconSpeed.png",
+              "value": 0.06,
+              "display": "6.0%",
+              "percent": true
+            }
+          ]
+        },
+        {
+          "id": "305",
+          "name": "Diferenciador Celestial",
+          "icon": "icon/relic/305.png",
+          "num": 2,
+          "desc": "Aumenta o Dano CRIT do usuário em 16%. Quando o Dano CRIT atual do usuário atingir 120% ou mais, após entrar na batalha, a Chance de CRIT do usuário aumenta em 60% até o fim de seu primeiro ataque.",
+          "properties": [
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.16,
+              "display": "16.0%",
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 2109.216,
+          "display": "2109",
+          "percent": false
+        },
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 1167.0720000000001,
+          "display": "1167",
+          "percent": false
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 809.7,
+          "display": "809",
+          "percent": false
+        },
+        {
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 90,
+          "display": "90",
+          "percent": false
+        },
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.05,
+          "display": "5.0%",
+          "percent": true
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.5,
+          "display": "50.0%",
+          "percent": true
+        }
+      ],
+      "additions": [
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 1693.5433754869387,
+          "display": "1693",
+          "percent": false
+        },
+        {
+          "field": "physical_dmg",
+          "name": "Bônus de Dano Físico",
+          "icon": "icon/property/IconPhysicalAddedRatio.png",
+          "value": 0.402781999349598,
+          "display": "40.2%",
+          "percent": true
+        },
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 1082.1506926344243,
+          "display": "1082",
+          "percent": false
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 186.77971786086135,
+          "display": "186",
+          "percent": false
+        },
+        {
+          "field": "break_dmg",
+          "name": "Efeito de Quebra",
+          "icon": "icon/property/IconBreakUp.png",
+          "value": 0.274752006400373,
+          "display": "27.4%",
+          "percent": true
+        },
+        {
+          "field": "effect_hit",
+          "name": "Taxa de Acerto de Efeito",
+          "icon": "icon/property/IconStatusProbability.png",
+          "value": 0.065664001973346,
+          "display": "6.5%",
+          "percent": true
+        },
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.02592000248842,
+          "display": "2.5%",
+          "percent": true
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.253312002252786,
+          "display": "25.3%",
+          "percent": true
+        },
+        {
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.069120002444834,
+          "display": "6.9%",
+          "percent": true
+        },
+        {
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 5.3999999999999995,
+          "display": "5",
+          "percent": false
+        }
+      ],
+      "properties": [
+        {
+          "type": "AttackAddedRatio",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 1.2794000040087763,
+          "display": "127.9%",
+          "percent": true
+        },
+        {
+          "type": "PhysicalAddedRatio",
+          "field": "physical_dmg",
+          "name": "Bônus de Dano Físico",
+          "icon": "icon/property/IconPhysicalAddedRatio.png",
+          "value": 0.402781999349598,
+          "display": "40.2%",
+          "percent": true
+        },
+        {
+          "type": "HPAddedRatio",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 0.20368000366725103,
+          "display": "20.3%",
+          "percent": true
+        },
+        {
+          "type": "HPDelta",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 652.5455700193997,
+          "display": "652",
+          "percent": false
+        },
+        {
+          "type": "DefenceAddedRatio",
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 0.151200002292173,
+          "display": "15.1%",
+          "percent": true,
+          "count": 2,
+          "step": 1
+        },
+        {
+          "type": "BreakDamageAddedRatioBase",
+          "field": "break_dmg",
+          "name": "Efeito de Quebra",
+          "icon": "icon/property/IconBreakUp.png",
+          "value": 0.274752006400373,
+          "display": "27.4%",
+          "percent": true,
+          "count": 2,
+          "step": 1
+        },
+        {
+          "type": "AttackDelta",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 200.3914540084079,
+          "display": "200",
+          "percent": false
+        },
+        {
+          "type": "StatusProbabilityBase",
+          "field": "effect_hit",
+          "name": "Taxa de Acerto de Efeito",
+          "icon": "icon/property/IconStatusProbability.png",
+          "value": 0.065664001973346,
+          "display": "6.5%",
+          "percent": true,
+          "count": 1,
+          "step": 1
+        },
+        {
+          "type": "DefenceDelta",
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 64.35307600488886,
+          "display": "64",
+          "percent": false,
+          "count": 1,
+          "step": 2
+        },
+        {
+          "type": "CriticalChanceBase",
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.02592000248842,
+          "display": "2.5%",
+          "percent": true,
+          "count": 1,
+          "step": 2
+        },
+        {
+          "type": "CriticalDamageBase",
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.253312002252786,
+          "display": "25.3%",
+          "percent": true,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "type": "StatusResistanceBase",
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.069120002444834,
+          "display": "6.9%",
+          "percent": true,
+          "count": 2,
+          "step": 4
+        },
+        {
+          "type": "SpeedAddedRatio",
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 0.06,
+          "display": "6.0%",
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": "1103",
+      "name": "Serval",
+      "rarity": 4,
+      "rank": 0,
+      "level": 50,
+      "promotion": 3,
+      "icon": "icon/character/1103.png",
+      "preview": "image/character_preview/1103.png",
+      "portrait": "image/character_portrait/1103.png",
+      "rank_icons": [
+        "icon/skill/1103_rank1.png",
+        "icon/skill/1103_rank2.png",
+        "icon/skill/1103_skill.png",
+        "icon/skill/1103_rank4.png",
+        "icon/skill/1103_ultimate.png",
+        "icon/skill/1103_rank6.png"
+      ],
+      "path": {
+        "id": "Mage",
+        "name": "A Erudição",
+        "icon": "icon/path/Erudition.png"
+      },
+      "element": {
+        "id": "Thunder",
+        "name": "Raio",
+        "color": "#8872F1",
+        "icon": "icon/element/Lightning.png"
+      },
+      "skills": [
+        {
+          "id": "110301",
+          "name": "Trovoada Estrondosa",
+          "level": 3,
+          "max_level": 9,
+          "element": {
+            "id": "Thunder",
+            "name": "Raio",
+            "color": "#8872F1",
+            "icon": "icon/element/Lightning.png"
+          },
+          "type": "Normal",
+          "type_text": "ATQ Básico",
+          "effect": "SingleAttack",
+          "effect_text": "Alvo Único",
+          "simple_desc": "Causa Dano de Raio leve a um único inimigo.",
+          "desc": "Causa Dano de Raio igual a 70% do ATQ de Serval a um único inimigo.",
+          "icon": "icon/skill/1103_basic_atk.png"
+        },
+        {
+          "id": "110302",
+          "name": "Clarão de Raio",
+          "level": 4,
+          "max_level": 15,
+          "element": {
+            "id": "Thunder",
+            "name": "Raio",
+            "color": "#8872F1",
+            "icon": "icon/element/Lightning.png"
+          },
+          "type": "BPSkill",
+          "type_text": "Perícia",
+          "effect": "Blast",
+          "effect_text": "Explosão",
+          "simple_desc": "Causa Dano de Raio leve a um único inimigo e aos inimigos adjacentes a ele, com alta chance de causar Choque nos inimigos atingidos.",
+          "desc": "Causa 91% do ATQ de Serval como Dano de Raio a um único inimigo e 39% do ATQ de Serval como Dano de Raio aos inimigos adjacentes a ele, com 80% de chance-base de os inimigos atingidos receberem Choque por 2 rodada(s).\nQuando em Choque, inimigos recebem Dano Contínuo de raio igual a 52% do ATQ de Serval no início de cada rodada.",
+          "icon": "icon/skill/1103_skill.png"
+        },
+        {
+          "id": "110303",
+          "name": "A Febre Mecânica Ataca",
+          "level": 4,
+          "max_level": 15,
+          "element": {
+            "id": "Thunder",
+            "name": "Raio",
+            "color": "#8872F1",
+            "icon": "icon/element/Lightning.png"
+          },
+          "type": "Ultra",
+          "type_text": "Perícia Suprema",
+          "effect": "AoEAttack",
+          "effect_text": "Área",
+          "simple_desc": "Causa Dano de Raio a todos os inimigos e aumenta a duração de Choque.",
+          "desc": "Causa Dano de Raio igual a 129% do ATQ de Serval a todos os inimigos. Inimigos com Choque terão esse estado prolongado por 2 rodada(s).",
+          "icon": "icon/skill/1103_ultimate.png"
+        },
+        {
+          "id": "110304",
+          "name": "Cordas Galvânicas",
+          "level": 3,
+          "max_level": 15,
+          "element": {
+            "id": "Thunder",
+            "name": "Raio",
+            "color": "#8872F1",
+            "icon": "icon/element/Lightning.png"
+          },
+          "type": "Talent",
+          "type_text": "Talento",
+          "effect": "Enhance",
+          "effect_text": "Aprimoramento",
+          "simple_desc": "Após usar um ataque, causa uma pequena quantidade de Dano Adicional a todos os inimigos com Choque.",
+          "desc": "Após Serval atacar, causa Dano de Raio Adicional igual a 43% do ATQ de Serval a todos os inimigos em Choque.",
+          "icon": "icon/skill/1103_talent.png"
+        },
+        {
+          "id": "110306",
+          "name": "110306",
+          "level": 0,
+          "max_level": 1,
+          "element": {
+            "id": "Thunder",
+            "name": "Raio",
+            "color": "#8872F1",
+            "icon": "icon/element/Lightning.png"
+          },
+          "type": "MazeNormal",
+          "type_text": "",
+          "effect": "MazeAttack",
+          "effect_text": "",
+          "simple_desc": "",
+          "desc": "",
+          "icon": "icon/skill/1103_basic_atk.png"
+        },
+        {
+          "id": "110307",
+          "name": "Boa Noite, Belobog",
+          "level": 1,
+          "max_level": 1,
+          "element": {
+            "id": "Thunder",
+            "name": "Raio",
+            "color": "#8872F1",
+            "icon": "icon/element/Lightning.png"
+          },
+          "type": "Maze",
+          "type_text": "Técnica",
+          "effect": "MazeAttack",
+          "effect_text": "",
+          "simple_desc": "Ataca o inimigo. Após entrar na batalha, causa uma pequena quantidade de Dano a um inimigo aleatório, com alta chance de infligir Choque a todos os alvos inimigos.",
+          "desc": "Ataca o inimigo imediatamente. Após entrar na batalha, causa 50% do ATQ de Serval como Dano de Raio a um inimigo aleatório, com 100% de chance-base de todos os inimigos receberem Choque por 3 rodada(s).\nQuando em Choque, inimigos recebem 50% do ATQ de Serval como Dano Contínuo de Raio no início de cada rodada.",
+          "icon": "icon/skill/1103_technique.png"
+        }
+      ],
+      "skill_trees": [
+        {
+          "id": "1103001",
+          "level": 3,
+          "icon": "icon/skill/1103_basic_atk.png"
+        },
+        {
+          "id": "1103002",
+          "level": 4,
+          "icon": "icon/skill/1103_skill.png"
+        },
+        {
+          "id": "1103003",
+          "level": 4,
+          "icon": "icon/skill/1103_ultimate.png"
+        },
+        {
+          "id": "1103004",
+          "level": 3,
+          "icon": "icon/skill/1103_talent.png"
+        },
+        {
+          "id": "1103007",
+          "level": 1,
+          "icon": "icon/skill/1103_technique.png"
+        },
+        {
+          "id": "1103101",
+          "level": 1,
+          "icon": "icon/skill/1103_skilltree1.png"
+        },
+        {
+          "id": "1103201",
+          "level": 1,
+          "icon": "icon/property/IconCriticalChance.png"
+        },
+        {
+          "id": "1103202",
+          "level": 1,
+          "icon": "icon/property/IconStatusProbability.png"
+        }
+      ],
+      "light_cone": {
+        "id": "21027",
+        "name": "A Solenidade do Café da Manhã",
+        "rarity": 4,
+        "rank": 3,
+        "level": 1,
+        "promotion": 0,
+        "icon": "icon/light_cone/21027.png",
+        "preview": "image/light_cone_preview/21027.png",
+        "portrait": "image/light_cone_portrait/21027.png",
+        "path": {
+          "id": "Mage",
+          "name": "A Erudição",
+          "icon": "icon/path/Erudition.png"
+        },
+        "attributes": [
+          {
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 38.4,
+            "display": "38",
+            "percent": false
+          },
+          {
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 21.6,
+            "display": "21",
+            "percent": false
+          },
+          {
+            "field": "def",
+            "name": "DEF",
+            "icon": "icon/property/IconDefence.png",
+            "value": 18,
+            "display": "18",
+            "percent": false
+          }
+        ],
+        "properties": [
+          {
+            "type": "AllDamageTypeAddedRatio",
+            "field": "all_dmg",
+            "name": "Bônus de Dano",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.18,
+            "display": "18.0%",
+            "percent": true
+          }
+        ]
+      },
+      "relics": [
+        {
+          "id": "61091",
+          "name": "Óculos Escuros Polarizados da Banda",
+          "set_id": "109",
+          "set_name": "Banda Trovão Crepitante",
+          "rarity": 5,
+          "level": 9,
+          "icon": "icon/relic/109_0.png",
+          "main_affix": {
+            "type": "HPDelta",
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 468.51840000622906,
+            "display": "468",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 38.10379200289026,
+              "display": "38",
+              "percent": false,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.12312000291422,
+              "display": "12.3%",
+              "percent": true,
+              "count": 2,
+              "step": 3
+            },
+            {
+              "type": "StatusResistanceBase",
+              "field": "effect_res",
+              "name": "RES a Efeito",
+              "icon": "icon/property/IconStatusResistance.png",
+              "value": 0.082080001244323,
+              "display": "8.2%",
+              "percent": true,
+              "count": 2,
+              "step": 3
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.058320001233369,
+              "display": "5.8%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            }
+          ]
+        },
+        {
+          "id": "61092",
+          "name": "Pulseira de Turnê da Banda",
+          "set_id": "109",
+          "set_name": "Banda Trovão Crepitante",
+          "rarity": 5,
+          "level": 5,
+          "icon": "icon/relic/109_1.png",
+          "main_affix": {
+            "type": "AttackDelta",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 155.23200000380166,
+            "display": "155",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "HPDelta",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 33.870039001107216,
+              "display": "33",
+              "percent": false,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "SpeedDelta",
+              "field": "spd",
+              "name": "VEL",
+              "icon": "icon/property/IconSpeed.png",
+              "value": 2.3000000002793968,
+              "display": "2",
+              "percent": false,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.025920000392944,
+              "display": "2.5%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "StatusProbabilityBase",
+              "field": "effect_hit",
+              "name": "Taxa de Acerto de Efeito",
+              "icon": "icon/property/IconStatusProbability.png",
+              "value": 0.034560000523925,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            }
+          ]
+        },
+        {
+          "id": "51023",
+          "name": "Xale de Caça ao Vento da Mosqueteira",
+          "set_id": "102",
+          "set_name": "Mosqueteira do Trigo Selvagem",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/102_2.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.287544000428167,
+            "display": "28.7%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.065664001973346,
+              "display": "6.5%",
+              "percent": true,
+              "count": 2,
+              "step": 3
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.023328001610934998,
+              "display": "2.3%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "StatusProbabilityBase",
+              "field": "effect_hit",
+              "name": "Taxa de Acerto de Efeito",
+              "icon": "icon/property/IconStatusProbability.png",
+              "value": 0.062208001501858,
+              "display": "6.2%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "StatusResistanceBase",
+              "field": "effect_res",
+              "name": "RES a Efeito",
+              "icon": "icon/property/IconStatusResistance.png",
+              "value": 0.034560001222417,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "51114",
+          "name": "Botas Meteóricas do Ladrão",
+          "set_id": "111",
+          "set_name": "Ladrão da Chuva de Meteoros",
+          "rarity": 4,
+          "level": 12,
+          "icon": "icon/relic/111_3.png",
+          "main_affix": {
+            "type": "AttackAddedRatio",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 0.287544000428167,
+            "display": "28.7%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 30.483036001678556,
+              "display": "30",
+              "percent": false,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.046656003221869996,
+              "display": "4.6%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.09331200225278599,
+              "display": "9.3%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "StatusResistanceBase",
+              "field": "effect_res",
+              "name": "RES a Efeito",
+              "icon": "icon/property/IconStatusResistance.png",
+              "value": 0.031104000750929,
+              "display": "3.1%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            }
+          ]
+        },
+        {
+          "id": "63065",
+          "name": "Cidade Móvel de Salsotto",
+          "set_id": "306",
+          "set_name": "Salsotto Inerte",
+          "rarity": 5,
+          "level": 0,
+          "icon": "icon/relic/306_0.png",
+          "main_affix": {
+            "type": "ThunderAddedRatio",
+            "field": "lightning_dmg",
+            "name": "Bônus de Dano de Raio",
+            "icon": "icon/property/IconThunderAddedRatio.png",
+            "value": 0.062208000104874,
+            "display": "6.2%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.043200000654907,
+              "display": "4.3%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.038880000589416,
+              "display": "3.8%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "BreakDamageAddedRatioBase",
+              "field": "break_dmg",
+              "name": "Efeito de Quebra",
+              "icon": "icon/property/IconBreakUp.png",
+              "value": 0.058320001233369,
+              "display": "5.8%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            }
+          ]
+        },
+        {
+          "id": "63046",
+          "name": "Defesa de Ferro de Belobog",
+          "set_id": "304",
+          "set_name": "Belobog dos Arquitetos",
+          "rarity": 5,
+          "level": 7,
+          "icon": "icon/relic/304_1.png",
+          "main_affix": {
+            "type": "HPAddedRatio",
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 0.23846400319598804,
+            "display": "23.8%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.034560000523925,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "SpeedDelta",
+              "field": "spd",
+              "name": "VEL",
+              "icon": "icon/property/IconSpeed.png",
+              "value": 2,
+              "display": "2",
+              "percent": false,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.029160000616685,
+              "display": "2.9%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "StatusResistanceBase",
+              "field": "effect_res",
+              "name": "RES a Efeito",
+              "icon": "icon/property/IconStatusResistance.png",
+              "value": 0.082080001244323,
+              "display": "8.2%",
+              "percent": true,
+              "count": 2,
+              "step": 3
+            }
+          ]
+        }
+      ],
+      "relic_sets": [
+        {
+          "id": "109",
+          "name": "Banda Trovão Crepitante",
+          "icon": "icon/relic/109.png",
+          "num": 2,
+          "desc": "Aumenta o Dano de Raio em 10%.",
+          "properties": [
+            {
+              "type": "ThunderAddedRatio",
+              "field": "lightning_dmg",
+              "name": "Bônus de Dano de Raio",
+              "icon": "icon/property/IconThunderAddedRatio.png",
+              "value": 0.1,
+              "display": "10.0%",
+              "percent": true
+            }
+          ]
+        }
+      ],
+      "attributes": [
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 618.7199999999999,
+          "display": "618",
+          "percent": false
+        },
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 434.5200000000001,
+          "display": "434",
+          "percent": false
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 255.14999999999998,
+          "display": "255",
+          "percent": false
+        },
+        {
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 104,
+          "display": "104",
+          "percent": false
+        },
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.05,
+          "display": "5.0%",
+          "percent": true
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.5,
+          "display": "50.0%",
+          "percent": true
+        }
+      ],
+      "additions": [
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.15206400584243399,
+          "display": "15.2%",
+          "percent": true
+        },
+        {
+          "field": "effect_hit",
+          "name": "Taxa de Acerto de Efeito",
+          "icon": "icon/property/IconStatusProbability.png",
+          "value": 0.136768002025783,
+          "display": "13.6%",
+          "percent": true
+        },
+        {
+          "field": "all_dmg",
+          "name": "Bônus de Dano",
+          "icon": "icon/property/IconAttack.png",
+          "value": 0.18,
+          "display": "18.0%",
+          "percent": true
+        },
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 717.2872227709106,
+          "display": "717",
+          "percent": false
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 38.10379200289026,
+          "display": "38",
+          "percent": false
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.216432005167006,
+          "display": "21.6%",
+          "percent": true
+        },
+        {
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.22982400446199203,
+          "display": "22.9%",
+          "percent": true
+        },
+        {
+          "field": "break_dmg",
+          "name": "Efeito de Quebra",
+          "icon": "icon/property/IconBreakUp.png",
+          "value": 0.116640002466738,
+          "display": "11.6%",
+          "percent": true
+        },
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 467.5134234213435,
+          "display": "467",
+          "percent": false
+        },
+        {
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 4.300000000279397,
+          "display": "4",
+          "percent": false
+        },
+        {
+          "field": "lightning_dmg",
+          "name": "Bônus de Dano de Raio",
+          "icon": "icon/property/IconThunderAddedRatio.png",
+          "value": 0.16220800010487402,
+          "display": "16.2%",
+          "percent": true
+        }
+      ],
+      "properties": [
+        {
+          "type": "CriticalChanceBase",
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.15206400584243399,
+          "display": "15.2%",
+          "percent": true
+        },
+        {
+          "type": "StatusProbabilityBase",
+          "field": "effect_hit",
+          "name": "Taxa de Acerto de Efeito",
+          "icon": "icon/property/IconStatusProbability.png",
+          "value": 0.136768002025783,
+          "display": "13.6%",
+          "percent": true
+        },
+        {
+          "type": "AllDamageTypeAddedRatio",
+          "field": "all_dmg",
+          "name": "Bônus de Dano",
+          "icon": "icon/property/IconAttack.png",
+          "value": 0.18,
+          "display": "18.0%",
+          "percent": true
+        },
+        {
+          "type": "HPDelta",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 502.3884390073363,
+          "display": "502",
+          "percent": false
+        },
+        {
+          "type": "DefenceDelta",
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 38.10379200289026,
+          "display": "38",
+          "percent": false,
+          "count": 2,
+          "step": 2
+        },
+        {
+          "type": "CriticalDamageBase",
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.216432005167006,
+          "display": "21.6%",
+          "percent": true,
+          "count": 2,
+          "step": 3
+        },
+        {
+          "type": "StatusResistanceBase",
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.22982400446199203,
+          "display": "22.9%",
+          "percent": true,
+          "count": 2,
+          "step": 3
+        },
+        {
+          "type": "BreakDamageAddedRatioBase",
+          "field": "break_dmg",
+          "name": "Efeito de Quebra",
+          "icon": "icon/property/IconBreakUp.png",
+          "value": 0.116640002466738,
+          "display": "11.6%",
+          "percent": true,
+          "count": 1,
+          "step": 1
+        },
+        {
+          "type": "AttackDelta",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 185.71503600548021,
+          "display": "185",
+          "percent": false
+        },
+        {
+          "type": "SpeedDelta",
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 4.300000000279397,
+          "display": "4",
+          "percent": false,
+          "count": 1,
+          "step": 1
+        },
+        {
+          "type": "AttackAddedRatio",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 0.6485280019696751,
+          "display": "64.8%",
+          "percent": true
+        },
+        {
+          "type": "HPAddedRatio",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 0.34732800582424106,
+          "display": "34.7%",
+          "percent": true,
+          "count": 2,
+          "step": 3
+        },
+        {
+          "type": "ThunderAddedRatio",
+          "field": "lightning_dmg",
+          "name": "Bônus de Dano de Raio",
+          "icon": "icon/property/IconThunderAddedRatio.png",
+          "value": 0.16220800010487402,
+          "display": "16.2%",
+          "percent": true
+        }
+      ]
+    },
+    {
+      "id": "1105",
+      "name": "Natasha",
+      "rarity": 4,
+      "rank": 6,
+      "level": 60,
+      "promotion": 4,
+      "icon": "icon/character/1105.png",
+      "preview": "image/character_preview/1105.png",
+      "portrait": "image/character_portrait/1105.png",
+      "rank_icons": [
+        "icon/skill/1105_rank1.png",
+        "icon/skill/1105_rank2.png",
+        "icon/skill/1105_skill.png",
+        "icon/skill/1105_rank4.png",
+        "icon/skill/1105_ultimate.png",
+        "icon/skill/1105_rank6.png"
+      ],
+      "path": {
+        "id": "Priest",
+        "name": "A Abundância",
+        "icon": "icon/path/Abundance.png"
+      },
+      "element": {
+        "id": "Physical",
+        "name": "Físico",
+        "color": "#FFFFFF",
+        "icon": "icon/element/Physical.png"
+      },
+      "skills": [
+        {
+          "id": "110501",
+          "name": "Além da Bondade",
+          "level": 5,
+          "max_level": 9,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "Normal",
+          "type_text": "ATQ Básico",
+          "effect": "SingleAttack",
+          "effect_text": "Alvo Único",
+          "simple_desc": "Causa Dano Físico leve a um único inimigo.",
+          "desc": "Causa Dano Físico igual a 90% do ATQ de Natasha a um único inimigo.",
+          "icon": "icon/skill/1105_basic_atk.png"
+        },
+        {
+          "id": "110502",
+          "name": "Amor, Cura e Escolha",
+          "level": 8,
+          "max_level": 15,
+          "element": null,
+          "type": "BPSkill",
+          "type_text": "Perícia",
+          "effect": "Restore",
+          "effect_text": "Restauração",
+          "simple_desc": "Restaura PV de um único aliado e cura esse aliado continuamente.",
+          "desc": "Cura um único alvo em 9.8% dos PV máximos de Natasha mais 248. Cura o aliado em mais 6.7% dos PV máximos de Natasha mais 170 no início de cada rodada por 2 rodada(s).",
+          "icon": "icon/skill/1105_skill.png"
+        },
+        {
+          "id": "110503",
+          "name": "Presente do Renascimento",
+          "level": 8,
+          "max_level": 15,
+          "element": null,
+          "type": "Ultra",
+          "type_text": "Perícia Suprema",
+          "effect": "Restore",
+          "effect_text": "Restauração",
+          "simple_desc": "Restaura PV de todos os aliados.",
+          "desc": "Cura todos os aliados em 12.9% dos PV máximos de Natasha mais 326.",
+          "icon": "icon/skill/1105_ultimate.png"
+        },
+        {
+          "id": "110504",
+          "name": "Enervação",
+          "level": 7,
+          "max_level": 15,
+          "element": null,
+          "type": "Talent",
+          "type_text": "Talento",
+          "effect": "Enhance",
+          "effect_text": "Aprimoramento",
+          "simple_desc": "",
+          "desc": "Ao curar aliados com PV iguais ou abaixo de 30%, aumenta a Cura Realizada de Natasha em 40%. Este efeito também funciona na cura contínua.",
+          "icon": "icon/skill/1105_talent.png"
+        },
+        {
+          "id": "110506",
+          "name": "110506",
+          "level": 0,
+          "max_level": 1,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "MazeNormal",
+          "type_text": "",
+          "effect": "MazeAttack",
+          "effect_text": "",
+          "simple_desc": "",
+          "desc": "",
+          "icon": "icon/skill/1105_basic_atk.png"
+        },
+        {
+          "id": "110507",
+          "name": "Pesquisa Hipnótica",
+          "level": 1,
+          "max_level": 1,
+          "element": {
+            "id": "Physical",
+            "name": "Físico",
+            "color": "#FFFFFF",
+            "icon": "icon/element/Physical.png"
+          },
+          "type": "Maze",
+          "type_text": "Técnica",
+          "effect": "MazeAttack",
+          "effect_text": "",
+          "simple_desc": "",
+          "desc": "Ataca o inimigo imediatamente. Após entrar na batalha, causa Dano Físico igual a 80% do ATQ de Natasha a um inimigo aleatório, com 100% de chance-base de causar Enfraquecimento a todos os inimigos.\nQuando enfraquecidos, inimigos causam 30% a menos de Dano a aliados por 1 rodada(s).",
+          "icon": "icon/skill/1105_technique.png"
+        }
+      ],
+      "skill_trees": [
+        {
+          "id": "1105001",
+          "level": 4,
+          "icon": "icon/skill/1105_basic_atk.png"
+        },
+        {
+          "id": "1105002",
+          "level": 6,
+          "icon": "icon/skill/1105_skill.png"
+        },
+        {
+          "id": "1105003",
+          "level": 6,
+          "icon": "icon/skill/1105_ultimate.png"
+        },
+        {
+          "id": "1105004",
+          "level": 5,
+          "icon": "icon/skill/1105_talent.png"
+        },
+        {
+          "id": "1105007",
+          "level": 1,
+          "icon": "icon/skill/1105_technique.png"
+        },
+        {
+          "id": "1105101",
+          "level": 1,
+          "icon": "icon/skill/1105_skilltree1.png"
+        },
+        {
+          "id": "1105102",
+          "level": 1,
+          "icon": "icon/skill/1105_skilltree2.png"
+        },
+        {
+          "id": "1105201",
+          "level": 1,
+          "icon": "icon/property/IconMaxHP.png"
+        },
+        {
+          "id": "1105202",
+          "level": 1,
+          "icon": "icon/property/IconStatusResistance.png"
+        },
+        {
+          "id": "1105203",
+          "level": 1,
+          "icon": "icon/property/IconMaxHP.png"
+        },
+        {
+          "id": "1105204",
+          "level": 1,
+          "icon": "icon/property/IconDefence.png"
+        },
+        {
+          "id": "1105205",
+          "level": 1,
+          "icon": "icon/property/IconMaxHP.png"
+        }
+      ],
+      "light_cone": {
+        "id": "20001",
+        "name": "Cornucópia",
+        "rarity": 3,
+        "rank": 5,
+        "level": 50,
+        "promotion": 3,
+        "icon": "icon/light_cone/20001.png",
+        "preview": "image/light_cone_preview/20001.png",
+        "portrait": "image/light_cone_portrait/20001.png",
+        "path": {
+          "id": "Priest",
+          "name": "A Abundância",
+          "icon": "icon/path/Abundance.png"
+        },
+        "attributes": [
+          {
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 550.8000000000001,
+            "display": "550",
+            "percent": false
+          },
+          {
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 153,
+            "display": "153",
+            "percent": false
+          },
+          {
+            "field": "def",
+            "name": "DEF",
+            "icon": "icon/property/IconDefence.png",
+            "value": 153,
+            "display": "153",
+            "percent": false
+          }
+        ],
+        "properties": []
+      },
+      "relics": [
+        {
+          "id": "51011",
+          "name": "Prendedor de Cabelo Rejuvenescido do Transeunte",
+          "set_id": "101",
+          "set_name": "Transeunte da Nuvem Errante",
+          "rarity": 4,
+          "level": 0,
+          "icon": "icon/relic/101_0.png",
+          "main_affix": {
+            "type": "HPDelta",
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 90.31680000037886,
+            "display": "90",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 16.935020001605153,
+              "display": "16",
+              "percent": false,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.027648000279441,
+              "display": "2.7%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.051840001484378,
+              "display": "5.1%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "51012",
+          "name": "Braçadeira de Dragão Vagante do Transeunte",
+          "set_id": "101",
+          "set_name": "Transeunte da Nuvem Errante",
+          "rarity": 4,
+          "level": 0,
+          "icon": "icon/relic/101_1.png",
+          "main_affix": {
+            "type": "AttackDelta",
+            "field": "atk",
+            "name": "ATQ",
+            "icon": "icon/property/IconAttack.png",
+            "value": 45.158399999840185,
+            "display": "45",
+            "percent": false
+          },
+          "sub_affix": [
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.034560001222417,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "StatusResistanceBase",
+              "field": "effect_res",
+              "name": "RES a Efeito",
+              "icon": "icon/property/IconStatusResistance.png",
+              "value": 0.034560001222417,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "55001",
+          "name": "Casaco Esfarrapado Bordado do Transeunte",
+          "set_id": "101",
+          "set_name": "Transeunte da Nuvem Errante",
+          "rarity": 4,
+          "level": 10,
+          "icon": "icon/relic/101_2.png",
+          "main_affix": {
+            "type": "HealRatioBase",
+            "field": "heal_rate",
+            "name": "Bônus de Cura Realizada",
+            "icon": "icon/property/IconHealRatio.png",
+            "value": 0.19906700565479202,
+            "display": "19.9%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 30.483036001678556,
+              "display": "30",
+              "percent": false,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 30.483036001678556,
+              "display": "30",
+              "percent": false,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.034560001222417,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "DefenceAddedRatio",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 0.034560000523925,
+              "display": "3.4%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            }
+          ]
+        },
+        {
+          "id": "55002",
+          "name": "Botas de Caminhada Estige do Transeunte",
+          "set_id": "101",
+          "set_name": "Transeunte da Nuvem Errante",
+          "rarity": 4,
+          "level": 10,
+          "icon": "icon/relic/101_3.png",
+          "main_affix": {
+            "type": "HPAddedRatio",
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 0.24883600044995302,
+            "display": "24.8%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "HPDelta",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 27.09603099990636,
+              "display": "27",
+              "percent": false,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 28.78953400091268,
+              "display": "28",
+              "percent": false,
+              "count": 2,
+              "step": 1
+            },
+            {
+              "type": "DefenceDelta",
+              "field": "def",
+              "name": "DEF",
+              "icon": "icon/property/IconDefence.png",
+              "value": 16.935020001605153,
+              "display": "16",
+              "percent": false,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "AttackAddedRatio",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 0.062208001501858,
+              "display": "6.2%",
+              "percent": true,
+              "count": 2,
+              "step": 2
+            }
+          ]
+        },
+        {
+          "id": "53025",
+          "name": "A Arca Celestial do Luofu do Xianzhou",
+          "set_id": "302",
+          "set_name": "Frota dos Eternos",
+          "rarity": 4,
+          "level": 0,
+          "icon": "icon/relic/302_0.png",
+          "main_affix": {
+            "type": "DefenceAddedRatio",
+            "field": "def",
+            "name": "DEF",
+            "icon": "icon/property/IconDefence.png",
+            "value": 0.069119999650866,
+            "display": "6.9%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 16.935020001605153,
+              "display": "16",
+              "percent": false,
+              "count": 1,
+              "step": 2
+            },
+            {
+              "type": "HPAddedRatio",
+              "field": "hp",
+              "name": "PV",
+              "icon": "icon/property/IconMaxHP.png",
+              "value": 0.031104000750929,
+              "display": "3.1%",
+              "percent": true,
+              "count": 1,
+              "step": 1
+            }
+          ]
+        },
+        {
+          "id": "63036",
+          "name": "A Rota Comercial da CPI",
+          "set_id": "303",
+          "set_name": "Empresa Mercantil Pangaláctica",
+          "rarity": 5,
+          "level": 8,
+          "icon": "icon/relic/303_1.png",
+          "main_affix": {
+            "type": "HPAddedRatio",
+            "field": "hp",
+            "name": "PV",
+            "icon": "icon/property/IconMaxHP.png",
+            "value": 0.262656003702434,
+            "display": "26.2%",
+            "percent": true
+          },
+          "sub_affix": [
+            {
+              "type": "AttackDelta",
+              "field": "atk",
+              "name": "ATQ",
+              "icon": "icon/property/IconAttack.png",
+              "value": 19.05189600144513,
+              "display": "19",
+              "percent": false,
+              "count": 1,
+              "step": 1
+            },
+            {
+              "type": "SpeedDelta",
+              "field": "spd",
+              "name": "VEL",
+              "icon": "icon/property/IconSpeed.png",
+              "value": 4.6000000005587935,
+              "display": "4",
+              "percent": false,
+              "count": 2,
+              "step": 2
+            },
+            {
+              "type": "CriticalChanceBase",
+              "field": "crit_rate",
+              "name": "Chance de CRIT",
+              "icon": "icon/property/IconCriticalChance.png",
+              "value": 0.025920000392944,
+              "display": "2.5%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            },
+            {
+              "type": "CriticalDamageBase",
+              "field": "crit_dmg",
+              "name": "Dano CRIT",
+              "icon": "icon/property/IconCriticalDamage.png",
+              "value": 0.051840000785887,
+              "display": "5.1%",
+              "percent": true,
+              "count": 1,
+              "step": 0
+            }
+          ]
+        }
+      ],
+      "relic_sets": [
+        {
+          "id": "101",
+          "name": "Transeunte da Nuvem Errante",
+          "icon": "icon/relic/101.png",
+          "num": 2,
+          "desc": "Aumenta Cura Realizada em 10%.",
+          "properties": [
+            {
+              "type": "HealRatioBase",
+              "field": "heal_rate",
+              "name": "Bônus de Cura Realizada",
+              "icon": "icon/property/IconHealRatio.png",
+              "value": 0.1,
+              "display": "10.0%",
+              "percent": true
+            }
+          ]
+        },
+        {
+          "id": "101",
+          "name": "Transeunte da Nuvem Errante",
+          "icon": "icon/relic/101.png",
+          "num": 4,
+          "desc": "No início da batalha, regenera imediatamente 1 Ponto de Perícia.",
+          "properties": []
+        }
+      ],
+      "attributes": [
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 1429.92,
+          "display": "1429",
+          "percent": false
+        },
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 512.64,
+          "display": "512",
+          "percent": false
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 535.95,
+          "display": "535",
+          "percent": false
+        },
+        {
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 98,
+          "display": "98",
+          "percent": false
+        },
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.05,
+          "display": "5.0%",
+          "percent": true
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.5,
+          "display": "50.0%",
+          "percent": true
+        }
+      ],
+      "additions": [
+        {
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 1093.470510331635,
+          "display": "1093",
+          "percent": false
+        },
+        {
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.074560001222417,
+          "display": "7.4%",
+          "percent": true
+        },
+        {
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 129.78285209696296,
+          "display": "129",
+          "percent": false
+        },
+        {
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 238.85036481357167,
+          "display": "238",
+          "percent": false
+        },
+        {
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.103680002270265,
+          "display": "10.3%",
+          "percent": true
+        },
+        {
+          "field": "heal_rate",
+          "name": "Bônus de Cura Realizada",
+          "icon": "icon/property/IconHealRatio.png",
+          "value": 0.29906700565479205,
+          "display": "29.9%",
+          "percent": true
+        },
+        {
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 4.6000000005587935,
+          "display": "4",
+          "percent": false
+        },
+        {
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.025920000392944,
+          "display": "2.5%",
+          "percent": true
+        }
+      ],
+      "properties": [
+        {
+          "type": "HPAddedRatio",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 0.6825960049033161,
+          "display": "68.2%",
+          "percent": true
+        },
+        {
+          "type": "StatusResistanceBase",
+          "field": "effect_res",
+          "name": "RES a Efeito",
+          "icon": "icon/property/IconStatusResistance.png",
+          "value": 0.074560001222417,
+          "display": "7.4%",
+          "percent": true
+        },
+        {
+          "type": "DefenceAddedRatio",
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 0.153680000174791,
+          "display": "15.3%",
+          "percent": true
+        },
+        {
+          "type": "HPDelta",
+          "field": "hp",
+          "name": "PV",
+          "icon": "icon/property/IconMaxHP.png",
+          "value": 117.41283100028522,
+          "display": "117",
+          "percent": false
+        },
+        {
+          "type": "AttackDelta",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 157.35290600708686,
+          "display": "157",
+          "percent": false,
+          "count": 1,
+          "step": 2
+        },
+        {
+          "type": "AttackAddedRatio",
+          "field": "atk",
+          "name": "ATQ",
+          "icon": "icon/property/IconAttack.png",
+          "value": 0.158976004226133,
+          "display": "15.8%",
+          "percent": true,
+          "count": 1,
+          "step": 0
+        },
+        {
+          "type": "CriticalDamageBase",
+          "field": "crit_dmg",
+          "name": "Dano CRIT",
+          "icon": "icon/property/IconCriticalDamage.png",
+          "value": 0.103680002270265,
+          "display": "10.3%",
+          "percent": true,
+          "count": 1,
+          "step": 2
+        },
+        {
+          "type": "HealRatioBase",
+          "field": "heal_rate",
+          "name": "Bônus de Cura Realizada",
+          "icon": "icon/property/IconHealRatio.png",
+          "value": 0.29906700565479205,
+          "display": "29.9%",
+          "percent": true
+        },
+        {
+          "type": "DefenceDelta",
+          "field": "def",
+          "name": "DEF",
+          "icon": "icon/property/IconDefence.png",
+          "value": 47.41805600328371,
+          "display": "47",
+          "percent": false,
+          "count": 2,
+          "step": 2
+        },
+        {
+          "type": "SpeedDelta",
+          "field": "spd",
+          "name": "VEL",
+          "icon": "icon/property/IconSpeed.png",
+          "value": 4.6000000005587935,
+          "display": "4",
+          "percent": false,
+          "count": 2,
+          "step": 2
+        },
+        {
+          "type": "CriticalChanceBase",
+          "field": "crit_rate",
+          "name": "Chance de CRIT",
+          "icon": "icon/property/IconCriticalChance.png",
+          "value": 0.025920000392944,
+          "display": "2.5%",
+          "percent": true,
+          "count": 1,
+          "step": 0
+        }
+      ]
+    }
+  ]
+}

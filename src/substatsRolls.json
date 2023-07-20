@@ -1,0 +1,30 @@
+{
+  "max": {
+    "HPDelta": 252,
+    "AttackDelta": 126,
+    "DefenceDelta": 126,
+    "HPAddedRatio": 25.92,
+    "AttackAddedRatio": 25.92,
+    "DefenceAddedRatio": 32.4,
+    "SpeedDelta": 15.6,
+    "CriticalChanceBase": 19.44,
+    "CriticalDamageBase": 38.88,
+    "StatusProbabilityBase": 25.92,
+    "StatusResistanceBase": 25.92,
+    "BreakDamageAddedRatioBase": 38.88
+  },
+  "min": {
+    "HPDelta": 42,
+    "AttackDelta": 21,
+    "DefenceDelta": 21,
+    "HPAddedRatio": 4.32,
+    "AttackAddedRatio": 4.32,
+    "DefenceAddedRatio": 5.4,
+    "SpeedDelta": 2.6,
+    "CriticalChanceBase": 3.24,
+    "CriticalDamageBase": 6.48,
+    "StatusProbabilityBase": 4.32,
+    "StatusResistanceBase": 4.32,
+    "BreakDamageAddedRatioBase": 6.48
+  }
+}

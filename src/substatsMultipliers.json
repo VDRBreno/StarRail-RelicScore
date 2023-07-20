@@ -1,0 +1,14 @@
+{
+  "HPDelta": 0.396825396825397,
+  "AttackDelta": 0.793650793650794,
+  "DefenceDelta": 0.793650793650794,
+  "HPAddedRatio": 3.85802469135802,
+  "AttackAddedRatio": 3.85802469135802,
+  "DefenceAddedRatio": 3.08641975308642,
+  "SpeedDelta": 6.41025641025641,
+  "CriticalChanceBase": 5.1440329218107,
+  "CriticalDamageBase": 2.57201646090535,
+  "StatusProbabilityBase": 3.85802469135802,
+  "StatusResistanceBase": 3.85802469135802,
+  "BreakDamageAddedRatioBase": 2.57201646090535
+}
