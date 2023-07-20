@@ -2,7 +2,7 @@
 
 ### 🚧 In Development
 
-> To define weights on the attributes that are best for each character, data from [Mar-7th/StarRailRes] and [Mar-7th/StarRailScore].
+> To define weights on the attributes that are best for each character, data from [Mar-7th/StarRailRes] and [Mar-7th/StarRailScore]. Created for https://niazinha.top
 
 The result of the calculations will show how good the 'rolls' of the subattributes were based on the character's weight, if all the subattributes are efficient for the character and each 'roll' with a high use, the score will be higher.
 

@@ -1,10 +1,10 @@
 # Star Rail - Relic Scorer
 
-> English version: https://github.com/VDRBreno/StarRail-RelicScore/en-README.md
+> [English version](./en-README.md)
 
 ### 🚧 Em Desenvolvimento
 
-> Para definir pesos nos atributos que são melhores para cada personagem, foram usados ​​dados de [Mar-7th/StarRailRes] e [Mar-7th/StarRailScore]. 
+> Para definir pesos nos atributos que são melhores para cada personagem, foram usados ​​dados de [Mar-7th/StarRailRes] e [Mar-7th/StarRailScore]. Criado para https://niazinha.top
 
 O resultado dos cálculos apresentará o quão bom foram os 'rolls' dos subatributos com base no peso do personagem, se todos os subatributos forem eficientes para o personagem e cada 'roll' com um alto aproveitamento, a pontuação será maior.
 
