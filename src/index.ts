@@ -69,7 +69,8 @@ for(const character of Player.characters) {
   console.log('=>', character.name, '\n');
 
   const CharacterId = character.id as CharacterId;
-  const SubAttributeMultiplier = 150 / getMaxSubStatsScore(CharacterId);
+  const MaxSubsStatsScore = getMaxSubStatsScore(CharacterId);
+  const SubAttributeMultiplier = 150 / MaxSubsStatsScore;
 
   const CharacterWeight = CharactersWeights[character.id as CharacterId];
 
@@ -92,6 +93,9 @@ for(const character of Player.characters) {
       const SubValue = Sub.value*(Sub.percent ?100 :1);
       const SubAttributeResult = SubValue * WeightSubAttribute * WeightAttribute;
 
+      console.log('-', Sub.name, Sub.display);
+      console.log(SubAttributeResult.toFixed(2), WeightSubAttribute.toFixed(2),'\n');
+
       SubAttributesResult += SubAttributeResult;
 
       if(WeightSubAttribute>0)
@@ -103,6 +107,7 @@ for(const character of Player.characters) {
 
     const Final = Result * MultiplierTotal;
 
+    console.log('SubsStatsScore:', SubAttributesResult.toFixed(2), '/', MaxSubsStatsScore.toFixed(2));
     console.log('RANK:', getRelicRank(Final), 'SCORE:', Final.toFixed(2), '\n');
 
   }
