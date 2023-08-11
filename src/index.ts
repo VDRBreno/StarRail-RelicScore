@@ -76,7 +76,7 @@ for(const character of Player.characters) {
 
   for(const relic of character.relics) {
 
-    console.log('->', relic.name);
+    console.log('  ->', relic.name);
 
     const MainAttributeType = getMainAttributeType(relic.id);
     const WeightMainAttributeTypes = CharacterWeight.main[MainAttributeType];
@@ -93,8 +93,8 @@ for(const character of Player.characters) {
       const SubValue = Sub.value*(Sub.percent ?100 :1);
       const SubAttributeResult = SubValue * WeightSubAttribute * WeightAttribute;
 
-      console.log('-', Sub.name, Sub.display);
-      console.log(SubAttributeResult.toFixed(2), WeightSubAttribute.toFixed(2),'\n');
+      console.log('    -', Sub.name, Sub.display);
+      console.log('    (',SubAttributeResult.toFixed(2), WeightSubAttribute.toFixed(2),')\n');
 
       SubAttributesResult += SubAttributeResult;
 
@@ -107,8 +107,8 @@ for(const character of Player.characters) {
 
     const Final = Result * MultiplierTotal;
 
-    console.log('SubsStatsScore:', SubAttributesResult.toFixed(2), '/', MaxSubsStatsScore.toFixed(2));
-    console.log('RANK:', getRelicRank(Final), 'SCORE:', Final.toFixed(2), '\n');
+    console.log('  SubsStatsScore:', SubAttributesResult.toFixed(2), '/', MaxSubsStatsScore.toFixed(2));
+    console.log('  RANK:', getRelicRank(Final), 'SCORE:', Final.toFixed(2), '\n');
 
   }
 }
